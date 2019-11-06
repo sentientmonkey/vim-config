@@ -32,10 +32,12 @@ else
   " Languages
   Plug 'fatih/vim-go'
   Plug 'vim-ruby/vim-ruby'
+  Plug 'guns/vim-clojure-static'
+  Plug 'tpope/vim-fireplace'
   Plug 'wlangstroth/vim-racket'
   Plug 'pangloss/vim-javascript'
+  Plug 'mxw/vim-jsx'
   Plug 'leafgarland/typescript-vim'
-  Plug 'ianks/vim-tsx'
   Plug 'peitalin/vim-jsx-typescript'
   Plug 'sentientmonkey/vim-lispy'
 
