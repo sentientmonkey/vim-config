@@ -1,0 +1,3 @@
+#!/bin/bash
+cd ~/.vim
+vim -c PlugUpdate! -c PlugClean! -c quitall
