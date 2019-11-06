@@ -16,6 +16,10 @@ else
   Plug 'tpope/vim-vividchalk'
   Plug 'altercation/vim-colors-solarized'
   Plug 'chriskempson/vim-tomorrow-theme'
+  Plug 'tomasr/molokai'
+  Plug 'doums/darcula'
+  Plug 'tssm/fairyfloss.vim'
+
   Plug 'kien/rainbow_parentheses.vim'
 
   " General
@@ -29,6 +33,9 @@ else
   " Editing
   Plug 'junegunn/vim-easy-align'
 
+  " Searching
+  Plug 'ctrlpvim/ctrlp.vim'
+
   " Languages
   Plug 'fatih/vim-go'
   Plug 'vim-ruby/vim-ruby'
@@ -40,6 +47,7 @@ else
   Plug 'leafgarland/typescript-vim'
   Plug 'peitalin/vim-jsx-typescript'
   Plug 'sentientmonkey/vim-lispy'
+  Plug 'lambdatoast/elm.vim'
 
   " Development Tool Integration
   Plug 'tpope/vim-fugitive'
