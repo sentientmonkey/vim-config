@@ -9,3 +9,8 @@ syn keyword racketBoolean s# u#
 " eopl
 set lispwords+=define-datatype,define-syntax
 syn keyword racketSyntax define-datatype define-syntax
+
+" pie
+set lispwords+=iter-Nat,claim,the,U
+syn keyword racketFunc iter-Nat
+syn keyword racketSyntax claim the U

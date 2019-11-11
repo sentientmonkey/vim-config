@@ -31,3 +31,5 @@ set smartcase                   " Smart case-sensitivity when searching (overrid
 set autoread                    " No prompt for file changes outside Vim
 
 set hls                         " search with highlights by default
+
+set completeopt=longest,menuone " autocomplete improved

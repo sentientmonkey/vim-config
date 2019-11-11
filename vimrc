@@ -44,8 +44,8 @@ else
   Plug 'wlangstroth/vim-racket'
   Plug 'pangloss/vim-javascript'
   Plug 'mxw/vim-jsx'
+  Plug 'ianks/vim-tsx'
   Plug 'leafgarland/typescript-vim'
-  Plug 'peitalin/vim-jsx-typescript'
   Plug 'sentientmonkey/vim-lispy'
   Plug 'lambdatoast/elm.vim'
 
@@ -54,6 +54,8 @@ else
   Plug 'tpope/vim-dispatch'
   Plug 'janko/vim-test'
   Plug 'guns/vim-sexp'
+  Plug 'Quramy/tsuquyomi'
+  Plug 'Shougo/vimproc'
 
   call plug#end()
 
