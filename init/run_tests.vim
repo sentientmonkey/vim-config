@@ -1,6 +1,5 @@
 " vim-test defaults
 let test#strategy = "dispatch"
 
-" First letter of runner's name must be uppercase
-" let test#custom_runners = {'racket': ['raco']}
-
+let test#racket#rackunit#executable = 'raco test'
+let test#racket#rackunit#file_pattern = '.*\.rkt$'

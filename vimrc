@@ -32,6 +32,7 @@ else
 
   " Editing
   Plug 'junegunn/vim-easy-align'
+  Plug 'tpope/start'
 
   " Searching
   Plug 'ctrlpvim/ctrlp.vim'
@@ -40,7 +41,6 @@ else
   Plug 'fatih/vim-go'
   Plug 'vim-ruby/vim-ruby'
   Plug 'guns/vim-clojure-static'
-  Plug 'tpope/vim-fireplace'
   Plug 'wlangstroth/vim-racket'
   Plug 'pangloss/vim-javascript'
   Plug 'mxw/vim-jsx'
@@ -48,6 +48,8 @@ else
   Plug 'leafgarland/typescript-vim'
   Plug 'sentientmonkey/vim-lispy'
   Plug 'lambdatoast/elm.vim'
+  Plug 'elixir-editors/vim-elixir'
+  Plug 'mhinz/vim-mix-format'
 
   " Development Tool Integration
   Plug 'tpope/vim-fugitive'
@@ -55,7 +57,11 @@ else
   Plug 'janko/vim-test'
   Plug 'guns/vim-sexp'
   Plug 'Quramy/tsuquyomi'
-  Plug 'Shougo/vimproc'
+  Plug 'Shougo/vimproc', { 'do': 'make' }
+  Plug 'tpope/vim-bundler'
+  Plug 'tpope/vim-rails'
+  Plug 'tpope/vim-fireplace'
+
 
   call plug#end()
 
