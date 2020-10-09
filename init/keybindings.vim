@@ -17,5 +17,6 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 nmap <leader>m :w!\|:!make %<cr>
 
 " autocomplete
-inoremap <Tab> <C-x><C-o>
+" this causes some funny issues, disabling
+" inoremap <Tab> <C-x><C-o>
 
