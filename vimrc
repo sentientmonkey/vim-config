@@ -32,10 +32,10 @@ else
 
   " Editing
   Plug 'junegunn/vim-easy-align'
-  Plug 'tpope/start'
 
   " Searching
   Plug 'ctrlpvim/ctrlp.vim'
+  Plug 'mileszs/ack.vim'
 
   " Languages
   Plug 'fatih/vim-go'
@@ -61,7 +61,7 @@ else
   Plug 'tpope/vim-bundler'
   Plug 'tpope/vim-rails'
   Plug 'tpope/vim-fireplace'
-
+  Plug 'dense-analysis/ale'
 
   call plug#end()
 
