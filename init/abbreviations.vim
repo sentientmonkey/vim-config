@@ -1,2 +1,2 @@
 ab lambda λ
-ab -> →
+"ab -> →

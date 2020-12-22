@@ -5,6 +5,7 @@ set guioptions-=T               " Remove GUI toolbar
 set guioptions-=e               " Use text tab bar, not GUI
 set guioptions-=rL              " Remove scrollbars
 set guicursor=a:blinkon0        " Turn off the blinking cursor
+set mouse=a                     " scrollwheel for mouse
 set visualbell                  " Suppress audio/visual error bell
 
 set showcmd                     " Show typed command prefixes while waiting for operator
@@ -33,3 +34,5 @@ set autoread                    " No prompt for file changes outside Vim
 set hls                         " search with highlights by default
 
 set completeopt=longest,menuone " autocomplete improved
+
+"set listchars:tab:»·,trail:·

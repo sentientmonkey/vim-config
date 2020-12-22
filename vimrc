@@ -11,6 +11,7 @@ if empty(system("grep vim-plug ~/.vim/autoload/plug.vim"))
 else
   " Initialize plugin system
   call plug#begin('~/.vim/plugged')
+  
 
   " Colors
   Plug 'tpope/vim-vividchalk'
@@ -20,7 +21,8 @@ else
   Plug 'doums/darcula'
   Plug 'tssm/fairyfloss.vim'
 
-  Plug 'kien/rainbow_parentheses.vim'
+  " Plug 'kien/rainbow_parentheses.vim'
+  Plug 'luochen1990/rainbow'
 
   " General
   Plug 'tpope/vim-surround'
@@ -43,6 +45,7 @@ else
   Plug 'guns/vim-clojure-static'
   Plug 'wlangstroth/vim-racket'
   Plug 'pangloss/vim-javascript'
+  Plug 'Galooshi/vim-import-js'
   Plug 'mxw/vim-jsx'
   Plug 'ianks/vim-tsx'
   Plug 'leafgarland/typescript-vim'
@@ -62,6 +65,7 @@ else
   Plug 'tpope/vim-rails'
   Plug 'tpope/vim-fireplace'
   Plug 'dense-analysis/ale'
+  Plug 'tpope/vim-rails'
 
   call plug#end()
 
