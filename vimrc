@@ -66,6 +66,7 @@ else
   Plug 'tpope/vim-fireplace'
   Plug 'dense-analysis/ale'
   Plug 'tpope/vim-rails'
+  Plug 'tpope/vim-commentary'
 
   call plug#end()
 
