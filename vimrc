@@ -36,8 +36,10 @@ else
   Plug 'junegunn/vim-easy-align'
 
   " Searching
-  Plug 'ctrlpvim/ctrlp.vim'
-  Plug 'mileszs/ack.vim'
+  " Plug 'ctrlpvim/ctrlp.vim'
+  " Plug 'mileszs/ack.vim'
+  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+  Plug 'junegunn/fzf.vim'
 
   " Languages
   Plug 'fatih/vim-go'
@@ -49,6 +51,7 @@ else
   Plug 'mxw/vim-jsx'
   Plug 'ianks/vim-tsx'
   Plug 'leafgarland/typescript-vim'
+  Plug 'Quramy/tsuquyomi'
   Plug 'sentientmonkey/vim-lispy'
   Plug 'lambdatoast/elm.vim'
   Plug 'elixir-editors/vim-elixir'
