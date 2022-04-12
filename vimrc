@@ -44,6 +44,7 @@ else
   " Languages
   Plug 'fatih/vim-go'
   Plug 'vim-ruby/vim-ruby'
+  Plug 'sunaku/vim-ruby-minitest'
   Plug 'guns/vim-clojure-static'
   Plug 'wlangstroth/vim-racket'
   Plug 'pangloss/vim-javascript'
