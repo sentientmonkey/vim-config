@@ -20,3 +20,5 @@ nmap <leader>m :w!\|:!make %<cr>
 " this causes some funny issues, disabling
 " inoremap <Tab> <C-x><C-o>
 
+" folding
+nnoremap <Space> za
