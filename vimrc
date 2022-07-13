@@ -54,6 +54,7 @@ else
   Plug 'leafgarland/typescript-vim'
   Plug 'Quramy/tsuquyomi'
   Plug 'sentientmonkey/vim-lispy'
+  Plug 'sentientmonkey/vim-lox'
   Plug 'lambdatoast/elm.vim'
   Plug 'elixir-editors/vim-elixir'
   Plug 'mhinz/vim-mix-format'
