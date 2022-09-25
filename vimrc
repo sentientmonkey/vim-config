@@ -73,6 +73,9 @@ else
   Plug 'tpope/vim-rails'
   Plug 'tpope/vim-commentary'
 
+  " Misc
+  Plug 'vimwiki/vimwiki'
+
   call plug#end()
 
   filetype plugin indent on
