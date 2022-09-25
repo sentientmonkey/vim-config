@@ -75,6 +75,7 @@ else
 
   " Misc
   Plug 'vimwiki/vimwiki'
+  Plug 'mattn/calendar-vim'
 
   call plug#end()
 
