@@ -58,6 +58,7 @@ else
   Plug 'lambdatoast/elm.vim'
   Plug 'elixir-editors/vim-elixir'
   Plug 'mhinz/vim-mix-format'
+  Plug 'LnL7/vim-nix'
 
   " Development Tool Integration
   Plug 'tpope/vim-fugitive'
