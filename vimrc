@@ -71,6 +71,9 @@ else
   Plug 'tpope/vim-rails'
   Plug 'tpope/vim-fireplace'
   Plug 'dense-analysis/ale'
+  Plug 'prabirshrestha/vim-lsp'
+  Plug 'rhysd/vim-lsp-ale'
+  Plug 'mattn/vim-lsp-settings'
   Plug 'tpope/vim-rails'
   Plug 'tpope/vim-commentary'
 

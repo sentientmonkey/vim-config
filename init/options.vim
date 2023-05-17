@@ -35,4 +35,6 @@ set hls                         " search with highlights by default
 
 set completeopt=longest,menuone " autocomplete improved
 
-"set listchars:tab:»·,trail:·
+set listchars:tab:»·,trail:·    " show tabs and trailing whitespace
+set list
+
