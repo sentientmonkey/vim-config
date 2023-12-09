@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 cd ~/.vim
 [[ -h "$HOME/.vimrc" ]] || ln -s ~/.vim/vimrc ~/.vimrc
 

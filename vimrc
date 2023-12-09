@@ -20,6 +20,7 @@ else
   Plug 'tomasr/molokai'
   Plug 'doums/darcula'
   Plug 'tssm/fairyfloss.vim'
+  Plug 'folke/tokyonight.nvim'
 
   " Plug 'kien/rainbow_parentheses.vim'
   Plug 'luochen1990/rainbow'
@@ -59,6 +60,7 @@ else
   Plug 'elixir-editors/vim-elixir'
   Plug 'mhinz/vim-mix-format'
   Plug 'LnL7/vim-nix'
+  Plug 'vim-crystal/vim-crystal'
 
   " Development Tool Integration
   Plug 'tpope/vim-fugitive'
