@@ -38,3 +38,6 @@ set completeopt=longest,menuone " autocomplete improved
 set listchars:tab:»·,trail:·    " show tabs and trailing whitespace
 set list
 
+set clipboard=unnamed           " use system clipboard for copy/paste
+
+set colorcolumn=100

@@ -35,6 +35,8 @@ else
 
   " Editing
   Plug 'junegunn/vim-easy-align'
+  Plug 'nvim-tree/nvim-tree.lua'
+  Plug 'nvim-tree/nvim-web-devicons'
 
   " Searching
   " Plug 'ctrlpvim/ctrlp.vim'
@@ -61,6 +63,7 @@ else
   Plug 'mhinz/vim-mix-format'
   Plug 'LnL7/vim-nix'
   Plug 'vim-crystal/vim-crystal'
+  Plug 'udalov/kotlin-vim'
 
   " Development Tool Integration
   Plug 'tpope/vim-fugitive'
@@ -82,6 +85,7 @@ else
   " Misc
   Plug 'vimwiki/vimwiki'
   Plug 'mattn/calendar-vim'
+  Plug 'nicwest/vim-http'
 
   call plug#end()
 

@@ -9,7 +9,15 @@ let b:ale_yaml_ls_config = {
       \   'validate': v:true,
       \   'schema': {
       \     'https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json': 'docker-compose.yaml',
-      \     'https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/master/master-standalone/deployment.json': 'deployment.yaml',
+      \     'https://json.schemastore.org/kustomization.json': 'kustomization.yaml',
+      \     'https://kubernetesjsonschema.dev/master-standalone/cronjob.json': 'cronjob.yaml',
+      \     'https://kubernetesjsonschema.dev/master-standalone/horizontalpodautoscaler.json': 'hpa.yaml',
+      \     'https://kubernetesjsonschema.dev/master-standalone/service.json': 'service.yaml',
+      \     'https://kubernetesjsonschema.dev/master-standalone/deployment.json': 'deployment.yaml',
+      \     'https://raw.githubusercontent.com/datreeio/CRDs-catalog/main/security.istio.io/authorizationpolicy_v1.json': '*policy.yaml',
+      \     'https://raw.githubusercontent.com/argoproj/argo-workflows/master/api/jsonschema/schema.json': 'workflow.yaml',
+      \     'https://raw.githubusercontent.com/argoproj/argo-events/master/api/jsonschema/schema.json': 'events.yaml',
+      \     'https://gitlab.com/gitlab-org/gitlab/-/raw/master/app/assets/javascripts/editor/schema/ci.json': '.gilab-ci.yaml'
       \    },
       \  },
       \}
