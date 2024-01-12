@@ -81,6 +81,7 @@ else
   Plug 'mattn/vim-lsp-settings'
   Plug 'tpope/vim-rails'
   Plug 'tpope/vim-commentary'
+  Plug 'github/copilot.vim'
 
   " Misc
   Plug 'vimwiki/vimwiki'
@@ -97,5 +98,9 @@ else
 
   if filereadable($HOME . "/.vimrc.local")
     source ~/.vimrc.local
+  endif
+
+  if filereadable($PWD . "/.vimrc.local")
+    source .vimrc.local
   endif
 endif
