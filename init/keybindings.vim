@@ -29,3 +29,5 @@ nmap <M-Down> ddp
 " Bubble multiple lines
 vmap <M-Up> xkP`[V`]
 vmap <M-Down> xp`[V`]
+
+nmap <C-h> :NvimTreeToggle<cr>
