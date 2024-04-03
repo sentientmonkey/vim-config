@@ -1,8 +1,11 @@
-#!/bin/env bash
+#!/usr/bin/env bash
+
+set -euo pipefail
+
 cd ~/.vim
 [[ -h "$HOME/.vimrc" ]] || ln -s ~/.vim/vimrc ~/.vimrc
 
-if !(grep --quiet --no-messages vim-plug ~/.vim/autoload/plug.vim); then
+if ! (grep --quiet --no-messages vim-plug ~/.vim/autoload/plug.vim); then
   echo "Installing Plug..."
   echo ""
   curl -fLo ~/.vim/autoload/plug.vim --create-dirs \

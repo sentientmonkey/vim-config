@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
+
+set -euo pipefail
+
 cd ~/.vim
+
 vim -c PlugUpdate! -c PlugClean! -c quitall

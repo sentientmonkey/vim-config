@@ -30,4 +30,7 @@ nmap <M-Down> ddp
 vmap <M-Up> xkP`[V`]
 vmap <M-Down> xp`[V`]
 
-nmap <C-h> :NvimTreeToggle<cr>
+imap <silent><script><expr> <C-J> copilot#Accept("\<CR>")
+let g:copilot_no_tab_map = v:true
+
+noremap <C-h> :NvimTreeToggle<CR>

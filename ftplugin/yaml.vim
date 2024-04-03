@@ -17,7 +17,8 @@ let b:ale_yaml_ls_config = {
       \     'https://raw.githubusercontent.com/datreeio/CRDs-catalog/main/security.istio.io/authorizationpolicy_v1.json': '*policy.yaml',
       \     'https://raw.githubusercontent.com/argoproj/argo-workflows/master/api/jsonschema/schema.json': 'workflow.yaml',
       \     'https://raw.githubusercontent.com/argoproj/argo-events/master/api/jsonschema/schema.json': 'events.yaml',
-      \     'https://gitlab.com/gitlab-org/gitlab/-/raw/master/app/assets/javascripts/editor/schema/ci.json': '.gilab-ci.yaml'
+      \     'https://gitlab.com/gitlab-org/gitlab/-/raw/master/app/assets/javascripts/editor/schema/ci.json': '.gilab-ci.yaml',
+      \     'https://json.schemastore.org/github-workflow.json': 'ci.yaml'
       \    },
       \  },
       \}
