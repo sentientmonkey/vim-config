@@ -11,7 +11,6 @@ if empty(system("grep vim-plug ~/.vim/autoload/plug.vim"))
 else
   " Initialize plugin system
   call plug#begin('~/.vim/plugged')
-  
 
   " Colors
   Plug 'tpope/vim-vividchalk'
@@ -32,6 +31,7 @@ else
   Plug 'tpope/vim-sensible'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
+  Plug 'editorconfig/editorconfig-vim'
 
   " Editing
   Plug 'junegunn/vim-easy-align'
