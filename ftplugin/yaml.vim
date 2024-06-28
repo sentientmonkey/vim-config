@@ -1,5 +1,5 @@
 let b:ale_fixers = {'yaml': ['trim_whitespace', 'remove_trailing_lines', 'yamlfix']}
-let b:ale_linters = {'yaml': ['yaml-language-server']}
+let b:ale_linters = {'yaml': ['yaml-language-server', 'yamllint']}
 
 let g:ale_yaml_ls_use_global = 1
 let b:ale_yaml_ls_config = {

@@ -20,7 +20,7 @@ imap <c-x><c-f> <plug>(fzf-complete-path)
 imap <c-x><c-l> <plug>(fzf-complete-line)
 
 nmap <c-p> :GFiles<cr>
-nmap <c-a> :Rg<cr>
+nmap <c-s> :Rg<cr>
 
 " Customize fzf colors to match your color scheme
 " - fzf#wrap translates this to a set of `--color` options

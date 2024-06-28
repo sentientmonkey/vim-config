@@ -87,6 +87,7 @@ else
   Plug 'vimwiki/vimwiki'
   Plug 'mattn/calendar-vim'
   Plug 'nicwest/vim-http'
+  Plug 'dbridges/vim-markdown-runner'
 
   call plug#end()
 
