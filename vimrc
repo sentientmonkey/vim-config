@@ -64,6 +64,8 @@ else
   Plug 'LnL7/vim-nix'
   Plug 'vim-crystal/vim-crystal'
   Plug 'udalov/kotlin-vim'
+  Plug 'terrastruct/d2-vim'
+  Plug 'towolf/vim-helm'
 
   " Development Tool Integration
   Plug 'tpope/vim-fugitive'
