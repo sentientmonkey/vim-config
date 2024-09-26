@@ -1,3 +1,4 @@
+let g:ale_disable_lsp = 'auto'
 let b:ale_fixers = {'terraform': ['terraform']}
 
 function! TerraformFolds()
