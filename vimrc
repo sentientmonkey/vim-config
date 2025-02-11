@@ -84,6 +84,7 @@ else
   Plug 'tpope/vim-rails'
   Plug 'tpope/vim-commentary'
   Plug 'github/copilot.vim'
+  Plug 'joshuavial/aider.nvim'
 
   " Misc
   Plug 'vimwiki/vimwiki'

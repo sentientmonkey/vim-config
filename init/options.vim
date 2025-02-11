@@ -41,3 +41,5 @@ set list
 set clipboard=unnamed           " use system clipboard for copy/paste
 
 set colorcolumn=100
+
+filetype plugin indent on

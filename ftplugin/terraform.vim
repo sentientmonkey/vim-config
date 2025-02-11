@@ -31,3 +31,5 @@ function! TerraformFoldText()
   return getline(v:foldstart).' ('.foldsize.' lines)'
 endfunction
 setlocal foldtext=TerraformFoldText()
+
+setlocal commentstring=#\ %s
