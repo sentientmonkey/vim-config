@@ -42,4 +42,9 @@ set clipboard=unnamed           " use system clipboard for copy/paste
 
 set colorcolumn=100
 
+set autoread                    " automatically reload buffers on change
+autocmd FocusGained,BufEnter,CursorHold,CursorHoldI * if mode() != 'c' | checktime | endif
+
+
 filetype plugin indent on
+
