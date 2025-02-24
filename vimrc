@@ -92,6 +92,14 @@ else
   Plug 'nicwest/vim-http'
   Plug 'dbridges/vim-markdown-runner'
 
+  " avante.nvim
+  Plug 'nvim-treesitter/nvim-treesitter'
+  Plug 'stevearc/dressing.nvim'
+  Plug 'nvim-lua/plenary.nvim'
+  Plug 'MunifTanjim/nui.nvim'
+  Plug 'MeanderingProgrammer/render-markdown.nvim'
+  Plug 'yetone/avante.nvim', { 'branch': 'main', 'do': 'make' }
+
   call plug#end()
 
   filetype plugin indent on
