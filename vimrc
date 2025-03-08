@@ -98,6 +98,7 @@ else
   Plug 'nvim-lua/plenary.nvim'
   Plug 'MunifTanjim/nui.nvim'
   Plug 'MeanderingProgrammer/render-markdown.nvim'
+  Plug 'HakonHarnes/img-clip.nvim'
   Plug 'yetone/avante.nvim', { 'branch': 'main', 'do': 'make' }
 
   call plug#end()
