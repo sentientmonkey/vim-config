@@ -1,5 +1,6 @@
 let g:ale_disable_lsp = 'auto'
 let b:ale_fixers = {'terraform': ['terraform']}
+let b:ale_linters = {'terraform': ['terraform_ls', 'terraform', 'tflint']}
 
 function! TerraformFolds()
   let thisline = getline(v:lnum)
